@@ -1,0 +1,17 @@
+form{
+    background-color: aqua;
+    margin-left:550px;
+    margin-right: 500px;
+    padding: 20px;
+}
+#title,#description{
+    text-align: center;
+}
+img{
+     width: 200px;
+     height:150px;
+     padding:0 80px;
+}
+.txt{
+    padding:25px;
+}

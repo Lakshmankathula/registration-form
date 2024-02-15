@@ -1,0 +1,63 @@
+<html>
+<head>
+<title id=>Registration Form</title>
+<link href="registration.css" rel="stylesheet">
+</head>
+<body>
+<form id="survey-form" required>
+    <h1 id="title">Registration Form</h1>
+    <p id="description"><b>Fill this form</b> </p>
+    <img src="https://www.nicepng.com/png/full/218-2189018_register-now-png.png"><br>
+<label id="name-label">Name<br>
+<input id="name" type="text"  name="name" placeholder="Enter your name" required><br>
+</label>
+<label id="email-label" >Email<br>
+<input id="email" type="email" placeholder="Enter your Email" name="email" required><br>
+</label>
+<label id="number-label">Age(optional)<br>
+<input id="number" type="number" min="18" max="120" placeholder="Age" name="age" required>
+</label>
+<p>Which option best describes your current role?</p>
+<select id="dropdown">
+<option>select current role</option>
+<option>Student</option>
+<option>Full Time Job</option>
+<option>Full Time Learner</option>
+<option>Prefer noto say</option>
+<option>Other</option>
+</select>
+<p>Would you recommend  your friend to learn Full stack?</p>
+<input type="radio" name="reccomendation" checked value="option1" id="definitely">Definitely<br>
+<input type="radio" name="reccomendation" value="option2" id="maybe">maybe<br>
+<input type="radio" name="reccomendation" value="option3" id="Notsure">Notsure<br>
+
+<p>What is your favorite thing?</p>
+<select id="dropdown">
+<option>select an option</option>
+<option>Challenges</option>
+<option>Projects</option>
+<option>Community</option>
+<option>Opensource</option>
+</select>
+
+<p>What would you like to see improved? (Check all that apply)</p>
+<input type="checkbox" value="survey-form">Front-end Projects<br>
+<input type="checkbox" value="survey-form">Back-end Projects<br>
+<input type="checkbox" value="survey-form">Data Visualization<br>
+<input type="checkbox" value="survey-form">Challenges<br>
+<input type="checkbox" value="survey-form">Open Source Community<br>
+<input type="checkbox" value="survey-form">Gitter help rooms<br>
+<input type="checkbox" value="survey-form">Videos<br>
+<input type="checkbox" value="survey-form">City Meetups<br>
+<input type="checkbox" value="survey-form">Wiki<br>
+<input type="checkbox" value="survey-form">Forum<br>
+<input type="checkbox" value="survey-form">Additional Courses<br>
+
+<p>Any comments or suggestions?</p>
+<textarea rows="5" cols="40" placeholder="Enter your comment here..." class="txt">
+</textarea><br><br>
+
+<button id="submit">submit</button>
+</form>
+</body>
+</html>
